@@ -1,9 +1,9 @@
 {
-  "name": "node-http-server",
+  "name": "first-steps-frontend-coding",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "description": "First steps into frontend development",
   "scripts": {
-    "start": "parcel ./src/**/*.html",
+    "start": "parcel ./**/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
