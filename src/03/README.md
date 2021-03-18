@@ -1,4 +1,4 @@
-# Exercise 03 - Down to the foot
+# Exercise 03 - The footer takes it all
 
 ## Lesson
 
@@ -26,5 +26,13 @@ The footer always belongs to it's nearest anchestor.
 ## Goals
 
 Add a proper `footer` to your website with an imprint like text.
+
+## Tips
+
+- [`footer`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+
+## Extra Credit
+
+Think a demonstrate how you would structure an article page with the tags you know! Add the result into the `extra.html`
 
 [Prev](../02/README.md) • [Next](../04/README.md)
