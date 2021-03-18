@@ -2,9 +2,9 @@
 
 ## Lesson
 
-The web without images would be quite boring!
+The web without images would be pretty dull!
 
-HTML provides an `img` element to embedd images into your website
+HTML provides an `img` element to embed images into your website
 
 ```html
 <img
@@ -15,7 +15,7 @@ HTML provides an `img` element to embedd images into your website
 
 > The `img` tag is one of the exceptions that doesn't need a closing or self-closing tag!
 
-Each image should contain a `src` attribute with the path/url to the image and for accessibility reason an `alt` title, which is used by screen readers or when the image couldn't be loaded properly.
+Each image should contain an `src` attribute with the path/URL to the image and, for an accessibility reason, an `alt` title used by screen readers or when the browser couldn't load the image properly.
 
 > Despite the normal `img` tag there was also introduced a new [`picture`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
@@ -29,11 +29,11 @@ To ensure that the image isn't blowing up your page, you can set the width or he
 />
 ```
 
-> The unit for width is pixels, we will learn about that later!
+> The unit for width is pixels. We will learn about that later!
 
 ## Goals
 
-Create a page with an image gallery. You can show them as a list, table, or just below eachother!
+Create a page with an image gallery. You can show them as a list, table, or just below each other!
 
 ## Tips
 
@@ -41,6 +41,6 @@ Create a page with an image gallery. You can show them as a list, table, or just
 
 ## Extra Credit
 
-Try to experiment with `picture` tag and document the differences within the `extra.html`
+Try to experiment with the `picture` tag and document the differences within the `extra.html`.
 
 [Prev](../05/README.md) • [Next](../07/README.md)

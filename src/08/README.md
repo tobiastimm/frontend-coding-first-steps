@@ -2,33 +2,53 @@
 
 ## Lesson
 
-The web without images would be quite boring!
+This is our last exercise for today!
 
-HTML provides an `img` element to embedd images into your website
+We haven't covered links yet. There is a critical concept to walk between different pages and connect to the outer world!
+
+A link or an `anchor` is created in HTML via an `a` tag.
+You define the destination within the `href` attribute.
+
+This creates a hyperlink to web pages, files, email addresses, locations on the same page, or anything else a URL can address.
 
 ```html
-<img
-  src="/media/cc0-images/grapefruit-slice-332-332.jpg"
-  alt="Grapefruit slice atop a pile of other slices"
-/>
+<ul>
+  <li><a href="https://example.com">Website</a></li>
+  <li><a href="mailto:m.bluth@example.com">Email</a></li>
+  <li><a href="tel:+123456789">Phone</a></li>
+</ul>
 ```
 
-> The `img` tag is one of the exceptions that doesn't need a closing or self-closing tag!
+> Content within each `<a>` tag should indicate the link's destination
 
-Each image should contain a `src` attribute with the path/url to the image and for accessibility reason an `alt` title, which is used by screen readers or when the image couldn't be loaded properly.
+You can also link to _"local"_ pages via a relative path.
 
-> Despite the normal `img` tag there was also introduced a new [`picture`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
+_*So why do you need links?*_
+
+You don't want to have one big blown-up HTML file for your whole website.
+A website is consisting of a lot of different HTML files, sometimes combined separated.
+
+With local links, you can create navigation on your website to navigate the next or previous page.
+
+```html
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="./about.html">About</a></li>
+</ul>
+```
+
+The `a` also has some additional attributes for specifying how the user is navigated (f.e. new window/tab, same tab, ...).
 
 ## Goals
 
-Create a page with an image gallery. You can show them as a list, table, or just below eachother!
+Create a website with an `index.html`, `about.html`, and `imprint.html` and link these three pages with each other.
 
 ## Tips
 
-- [`img`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+- [`a`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
 
 ## Extra Credit
 
-Try to experiment with `picture` tag and document the differences within the `extra.html`
+Answer why I can specify `/` instead of `./index.html` to link to the root/home of a website. Add your answer to the `extra.html`.
 
-[Prev](../07/README.md)
+[Prev](../07/README.md) • [Next](../09/README.md)

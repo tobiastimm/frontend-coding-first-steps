@@ -2,10 +2,10 @@
 
 ## Lesson
 
-Last but not least the `footer`. A `<footer>` typically contains information about the author of the section, copyright data or links to related documents.
+Last but not least the `footer`. A `<footer>` typically contains information about the author of the section, copyright data, or links to related documents.
 It is not required to have a `footer` in an HTML file.
 
-The footer always belongs to it's nearest anchestor.
+The footer always belongs to its nearest ancestor.
 
 ```html
 <article>
@@ -21,11 +21,11 @@ The footer always belongs to it's nearest anchestor.
 </article>
 ```
 
-> Don't mind the `article`, `ol`, `li` tag. These are just different tags to structure data
+> Don't mind the `article`, `ol',`li` tag. These are just different tags to structure data
 
 ## Goals
 
-Add a proper `footer` to your website with an imprint like text.
+Add a proper `footer` to your website with an imprint-like text.
 
 ## Tips
 

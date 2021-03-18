@@ -32,7 +32,7 @@ You can nest an element within the opening and closing tag of another element; y
 
 > If your element does not have any children, you can also use a so-called self-closing tag `<div />`.
 
-For configuring a tag you can define attributes. An attribute always consists of three parts `Name="Value"`. To define such an attribute on a tag, just add it before the first closing angle bracket `<body id="test"></body>`.
+For configuring a tag, you can define attributes. An attribute always consists of three parts `Name="Value"`. To define such an attribute on a tag, add it before the first closing angle bracket `<body id="test"></body>`.
 
 Every `.html` file starts with a `<!doctype html>`. This signalises the browser that this is a [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) document (Don't worry about what HTML5 or HTML4.1 is yet, the modern browsers are all using HTML5).
 

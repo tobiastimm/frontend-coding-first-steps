@@ -2,13 +2,13 @@
 
 ## Lesson
 
-I want to mention some important facts, I want a numbered tasks list, I want a todo list.
+I want to mention some important facts. I want a numbered tasks list, and I want a to-do list.
 
-For all of these needs you need lists.
+For all of these needs, you need lists.
 
-In HTML we can do two kind of lists, ordered lists `<ol>` and unordered lists `<ul>`.
+In HTML, we can do two kinds of lists, ordered lists `<ol>` and unordered lists `<ul>`.
 
-The `ol` or `ul` will act as a container/group and they require `<li>` tags to act as a list element.
+The `ol` or `ul` will act as a container/group, and they require `<li>` tags to act as a list element.
 
 ```html
 <ol>
@@ -18,7 +18,7 @@ The `ol` or `ul` will act as a container/group and they require `<li>` tags to a
 </ol>
 ```
 
-To create nested lists, you simply need to add a list into another list.
+To create nested lists, you need to add a list to another list.
 
 ```html
 <ol>
@@ -31,11 +31,11 @@ To create nested lists, you simply need to add a list into another list.
 </ol>
 ```
 
-> Don't mind the `article`, `ol`, `li` tag. These are just different tags to structure data
+> Don't mind the `article`, `ol`, `li` tag. These are just different tags to structure data.
 
 ## Goals
 
-Create a unorded todo list and a table of contents with `ul` and `ol` tags.
+Create an unordered to-do list and a table of contents with `ul` and `ol` tags.
 
 ## Tips
 
@@ -44,8 +44,8 @@ Create a unorded todo list and a table of contents with `ul` and `ol` tags.
 
 ## Extra Credit
 
-Look at some websites and write down, where you think it would be wise to use lists to structure content.
+Look at some websites and write down where you think it would be wise to use lists to structure content.
 
-Add the results to the `extra.html`
+Add the results to the `extra.html`.
 
 [Prev](../03/README.md) • [Next](../05/README.md)

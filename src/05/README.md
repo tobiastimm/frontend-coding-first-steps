@@ -3,9 +3,9 @@
 ## Lesson
 
 Who doesn't love spreadsheets? I bet everyone has worked with Google Spreadsheets or Excel.
-They are a good way to structure content in a logical and easy to understand way.
+They are an excellent way to structure content in a logical and easy-to-understand manner.
 
-Of course it is possible to display stuff like that within HTML, the corresponding tag is called `table`.
+Of course, it is possible to display stuff like that within HTML. The corresponding tag is called `table`.
 
 A table consists of rows `tr` and cells `td`.
 
@@ -18,8 +18,8 @@ A table consists of rows `tr` and cells `td`.
 </table>
 ```
 
-Like a document you can also seperate the table into different parts like `thead`, `tbody`and `tfoot`.
-This for example is needed to enhance the looks of the columns.
+Like a document, you can also separate the table into different parts like `thead`, `tbody`and `tfoot`.
+For example, you need that to enhance the looks of the columns.
 
 ```html
 <table>
@@ -41,7 +41,7 @@ This for example is needed to enhance the looks of the columns.
 
 If you create columns within the `thead` it is recommended to use `th` instead of `td`.
 
-> Via the attribute `colspan` you can stretch a column over multiple cells
+> Via the attribute `colspan`, you can stretch a column over multiple cells
 
 ## Goals
 
@@ -51,7 +51,7 @@ Create a sign-up table with the columns
 - Name
 - Surname
 - Nationality
-- Adress (should span over 2 columns)
+- Address (should span over 2 columns)
 
 ## Tips
 
@@ -59,6 +59,6 @@ Create a sign-up table with the columns
 
 ## Extra Credit
 
-Try to enhance your table with a headline and a `tfoot` and add the results to the `extra.html`
+Try to enhance your table with a headline and a `tfoot` and add the results to the `extra.html`.
 
 [Prev](../04/README.md) • [Next](../06/README.md)
